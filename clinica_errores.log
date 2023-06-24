@@ -1,0 +1,74 @@
+[2023-04-1018:52:47] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1018:56:16] [ ERROR] [PacienteController:32] El paciente no puede ser ingresado con una fecha anterior a hoy
+[2023-04-1019:11:43] [ ERROR] [PacienteController:32] El dni no puede ser un numero negativo
+[2023-04-1019:14:01] [ ERROR] [PacienteController:32] El nro de calle no puede ser un numero negativo
+[2023-04-1019:14:05] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1019:14:34] [ ERROR] [OdontologoController:71] No se encontro odontologo con el id 1
+[2023-04-1019:14:37] [ ERROR] [OdontologoController:71] No se encontro odontologo con el id 1
+[2023-04-1019:14:45] [ ERROR] [OdontologoController:122] No se pudo eliminar al odontologo con id 1 porque no existe
+[2023-04-1019:14:55] [ ERROR] [OdontologoController:33] La matricula no puede ser negativa
+[2023-04-1019:15:18] [ ERROR] [OdontologoController:32] El turno no puede ser creado porque la fecha ingresada no es posterior a hoy
+[2023-04-1019:20:55] [ ERROR] [OdontologoController:32] El turno no puede ser creado porque la fecha ingresada no es posterior a hoy
+[2023-04-1019:21:03] [ ERROR] [OdontologoController:32] El turno no puede ser creado porque la hora no puede ser anterior a las 07:30am ni posterior a las 20:30
+[2023-04-1019:21:16] [ ERROR] [OdontologoController:32] El turno no puede ser creado porque la hora no puede ser anterior a las 07:30am ni posterior a las 20:30
+[2023-04-1019:24:51] [ ERROR] [OdontologoController:32] El turno no puede ser creado, la hora debe ser entre las 07:30 y las 20:30
+[2023-04-1019:24:58] [ ERROR] [OdontologoController:32] El turno no puede ser creado, la hora debe ser entre las 07:30 y las 20:30
+[2023-04-1019:27:54] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1019:30:05] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1019:34:53] [ ERROR] [OdontologoController:54] No se encontraron odontologos
+[2023-04-1019:40:11] [ ERROR] [OdontologoController:54] No se encontraron odontologos
+[2023-04-1019:40:22] [ ERROR] [OdontologoController:37] El odontologo con la matricula 123456 ya existe
+[2023-04-1019:43:08] [ ERROR] [OdontologoController:54] No se encontraron odontologos
+[2023-04-1019:57:13] [ ERROR] [OdontologoController:54] No se encontraron odontologos
+[2023-04-1020:02:29] [ ERROR] [OdontologoController:54] No se encontraron odontologos
+[2023-04-1020:16:12] [ ERROR] [OdontologoController:54] No se encontraron odontologos
+[2023-04-1020:22:49] [ ERROR] [OdontologoController:54] No se encontraron odontologos
+[2023-04-1020:24:39] [ ERROR] [OdontologoController:54] No se encontraron odontologos
+[2023-04-1020:39:27] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1020:39:40] [ ERROR] [PacienteController:53] No se encontraron pacientes
+[2023-04-1020:41:17] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1020:55:34] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1020:56:46] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1021:07:54] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1021:08:45] [ ERROR] [OdontologoController:33] Algun campo es nulo o esta vacio
+[2023-04-1021:21:36] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1021:22:20] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1021:24:15] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1021:24:46] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1021:34:07] [ ERROR] [OdontologoController:33] Algun campo es nulo o esta vacio
+[2023-04-1021:34:15] [ ERROR] [OdontologoController:33] La matricula no puede ser negativa
+[2023-04-1021:34:37] [ ERROR] [OdontologoController:37] El odontologo con la matricula 1234 ya existe
+[2023-04-1021:34:42] [ ERROR] [OdontologoController:54] No se encontraron odontologos
+[2023-04-1021:34:56] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1021:35:03] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1021:35:11] [ ERROR] [PacienteController:32] El dni no puede ser un numero negativo
+[2023-04-1021:35:18] [ ERROR] [PacienteController:32] El nro de calle no puede ser un numero negativo
+[2023-04-1021:35:25] [ ERROR] [PacienteController:32] El paciente no puede ser ingresado con una fecha anterior a hoy
+[2023-04-1021:35:51] [ ERROR] [PacienteController:53] No se encontraron pacientes
+[2023-04-1021:42:33] [ ERROR] [OdontologoController:32] El turno no puede ser creado, la hora debe ser entre las 07:30 y las 20:30
+[2023-04-1021:42:39] [ ERROR] [OdontologoController:32] El turno no puede ser creado, la hora debe ser entre las 07:30 y las 20:30
+[2023-04-1021:42:48] [ ERROR] [OdontologoController:32] El turno no puede ser creado porque la fecha ingresada no es posterior a hoy
+[2023-04-1021:44:18] [ ERROR] [OdontologoController:32] El turno no puede ser creado porque la fecha asignada es anterior a la actual
+[2023-04-1022:05:24] [ ERROR] [PacienteController:32] Algun campo es nulo o esta vacio
+[2023-04-1022:34:22] [ ERROR] [PacienteController:53] No se encontraron pacientes
+[2023-04-1100:12:23] [ ERROR] [PacienteController:53] No se encontraron pacientes
+[2023-04-1100:15:51] [ ERROR] [OdontologoController:54] No se encontraron odontologos
+[2023-04-1200:24:25] [ ERROR] [PacienteController:32] El paciente no puede ser ingresado con una fecha anterior a hoy
+[2023-04-2220:39:14] [ ERROR] [OdontologoController:49] No se encontraron turnos
+[2023-04-2220:58:59] [ ERROR] [PacienteController:32] El paciente no puede ser ingresado con una fecha anterior a hoy
+[2023-04-2220:59:19] [ ERROR] [OdontologoController:31] El turno no puede ser creado porque la fecha asignada es anterior a la actual
+[2023-06-2322:41:59] [ ERROR] [OdontologoController:37] El odontologo con la matricula 1234 ya existe
+[2023-06-2322:42:23] [ ERROR] [OdontologoController:54] No se encontraron odontologos
+[2023-06-2322:42:32] [ ERROR] [PacienteController:32] El paciente no puede ser ingresado con una fecha anterior a hoy
+[2023-06-2322:43:25] [ ERROR] [OdontologoController:81] Unable to find com.example.clinica.entity.Paciente with id 2
+[2023-06-2322:43:48] [ ERROR] [OdontologoController:65] No se encontró turno con el id 1
+[2023-06-2322:44:47] [ ERROR] [PacienteController:53] No se encontraron pacientes
+[2023-06-2322:45:23] [ ERROR] [PacienteController:87] Entity must not be null
+[2023-06-2322:46:15] [ ERROR] [PacienteController:87] Entity must not be null
+[2023-06-2322:46:54] [ ERROR] [OdontologoController:49] No se encontraron turnos
+[2023-06-2322:47:18] [ ERROR] [OdontologoController:49] No se encontraron turnos
+[2023-06-2323:11:57] [ ERROR] [PacienteController:53] No se encontraron pacientes
+[2023-06-2323:12:27] [ ERROR] [PacienteController:87] Entity must not be null
+[2023-06-2323:13:58] [ ERROR] [PacienteController:87] Entity must not be null
+[2023-06-2323:20:21] [ ERROR] [OdontologoController:54] No se encontraron odontologos
+[2023-06-2323:21:03] [ ERROR] [OdontologoController:49] No se encontraron turnos

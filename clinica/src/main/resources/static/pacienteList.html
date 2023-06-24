@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Listado Pacientes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="/pacienteAlta.html">Agregar paciente nuevo </a>
+        </li>
+    </ul>
+
+    <div id="div_patient_table">
+        <h1>Pacientes</h1>
+        <div class="row col-md-6 table-responsive">
+            <table id="patientTable" class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6" style="display: none;
+											background-color:#e6fffa; padding:10px; border-radius:3px"
+             id="div_patient_updating">
+            <form id="update_patient_form">
+                <div class="form-group">
+                    <label >Id:</label>
+                    <input type="text" class="form-control" id="patient_id" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="apellido_modifica" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido_modifica" name="apellido">
+                </div>
+                <div class="form-group">
+                    <label for="nombre_modifica" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre_modifica" name="nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email_modifica" class="form-label">Email </label>
+                    <input type="email" class="form-control" id="email_modifica" name="email" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="fecha_ingreso_modifica" class="form-label">Fecha ingreso</label>
+                    <input type="date" class="form-control" id="fecha_ingreso_modifica" name="fecha_ingreso">
+                </div>
+                <div class="form-group">
+                    <label for="dni_modifica" class="form-label">Dni</label>
+                    <input type="number" class="form-control" id="dni_modifica" name="dni">
+                </div>
+                    <div id="domicilio">
+                        <div class="form-group">
+                            <label for="calle_modifica" class="form-label">Calle</label>
+                            <input type="text" class="form-control" id="calle_modifica" name="calle">
+                        </div>
+                        <div class="form-group">
+                            <label for="nro_calle_modifica" class="form-label">Nro Calle</label>
+                            <input type="number" class="form-control" id="nro_calle_modifica" name="nro_calle">
+                        </div>
+                        <div class="mb-3">
+                            <label for="localidad_modifica" class="form-label">Localidad</label>
+                            <input type="text" class="form-control" id="localidad_modifica" name="localidad">
+                        </div>
+                        <div class="form-group">
+                            <label for="provincia_modifica" class="form-label">Provincia</label>
+                            <input type="text" class="form-control" id="provincia_modifica" name="provincia">
+                        </div>
+                    </div>
+
+
+
+                <button type="submit" class="btn btn-primary">Modificar paciente</button>
+            </form>
+            <div id="response" style="display:none; margin:10px">
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
+<script type="text/javascript" src="js/paciente/get_paciente.js"></script>
+<script type="text/javascript" src="js/paciente/put_paciente.js"></script>
+<script type="text/javascript" src="js/paciente/delete_paciente.js"></script>
+</body>
+</html>
